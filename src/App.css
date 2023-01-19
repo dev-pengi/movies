@@ -1,6 +1,32 @@
 .app {
-  min-height: 100vh;
   background-color: #39445a;
   color: #fff;
-  padding: 70px 0;
+  position: fixed;
+  width: 100%;
+  top: 60px;
+  height: calc(100vh - 115px);
+  padding: 0 30px;
+  overflow-y: auto;
+}
+
+@media screen and (max-width:600px) {
+  .app {
+    padding: 0 15px;
+  }
+}
+
+/* width */
+.app::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.app::-webkit-scrollbar-track {
+  background: #64708a;
+  /* border-radius: 3px; */
+}
+
+/* Handle */
+.app::-webkit-scrollbar-thumb {
+  background: #495774;
 }

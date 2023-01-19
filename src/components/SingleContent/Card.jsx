@@ -1,6 +1,6 @@
 import { img_300, img_500, unavailable } from "../../configs/config"
-
-const SingleContent = ({ content }) => {
+import "./card.css"
+const Card = ({ content }) => {
   const { id, release_date, media_type, vote_average, vote_count } = content
   const title = content.title || content.name
   const poster = content.poster_path ? `${img_300}/${content.poster_path}` : `${unavailable}`
@@ -13,4 +13,4 @@ const SingleContent = ({ content }) => {
   )
 }
 
-export default SingleContent
+export default Card

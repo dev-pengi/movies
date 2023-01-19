@@ -36,7 +36,7 @@ const SimpleBottomNavigation = () => {
         zIndex: 100,
     }
     const navStyles = {
-        backgroundColor: "#39445a",
+        backgroundColor: "#495774",
         height: '55px',
     }
     const actionStyles = {

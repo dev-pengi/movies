@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import SingleContent from "../../components/SingleContent/SingleContent";
+import Card from "../../components/SingleContent/Card";
+import "./trending.css";
 const Trending = () => {
     const api = `https://api.themoviedb.org/`;
     const key = `api_key=${process.env.REACT_APP_API_KEY}`;
@@ -22,11 +23,12 @@ const Trending = () => {
 
     return (
         <div>
-            <span className="pageTitle">
-            </span>
-            <div className="trending">
+            <h2 className="pageTitle">
+                Trending for today
+            </h2>
+            <div className="cards">
                 {
-                    content && content.map((c, index) => <SingleContent key={index} content={c} />)
+                    content && content.map((c, index) => <Card key={index} content={c} />)
                 }
             </div>
         </div>

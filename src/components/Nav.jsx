@@ -49,7 +49,6 @@ const SimpleBottomNavigation = () => {
                 <BottomNavigationAction sx={actionStyles} label="Trending" icon={<WhatshotIcon />} />
                 <BottomNavigationAction sx={actionStyles} label="Movies" icon={<MovieIcon />} />
                 <BottomNavigationAction sx={actionStyles} label="Tv Shows" icon={<LiveTvIcon />} />
-                <BottomNavigationAction sx={actionStyles} label="Search" icon={<SearchIcon />} />
 
             </BottomNavigation>
         </Box>

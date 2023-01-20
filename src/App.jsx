@@ -3,7 +3,6 @@ import './App.css';
 import Header from './components/Header/Header'
 import Nav from './components/Nav'
 import Movies from './pages/movies/Movies';
-import Search from './pages/search/Search';
 import Series from './pages/series/Series';
 import Trending from './pages/trending/Trending';
 import Pagination from './components/Pagination'
@@ -18,7 +17,6 @@ function App() {
           <Route path="/trending" element={<Trending />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="/series" element={<Series />} />
-          <Route path="/search" element={<Search />} />
         </Routes>
       </div>
       <Nav />

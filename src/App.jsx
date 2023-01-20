@@ -6,12 +6,13 @@ import Movies from './pages/movies/Movies';
 import Search from './pages/search/Search';
 import Series from './pages/series/Series';
 import Trending from './pages/trending/Trending';
+import Pagination from './components/Pagination'
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
-      <div className="app">
+      <div className="app" id='app'>
         <Routes>
           <Route path="/" element={<Trending />} />
           <Route path="/trending" element={<Trending />} />

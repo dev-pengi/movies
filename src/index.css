@@ -10,5 +10,15 @@
   list-style: none;
   outline: none;
   border: none;
-  font-family: 'Open Sans', 'Ubuntu';
+  font-family: 'Open Sans', 'Ubuntu', sans-serif;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

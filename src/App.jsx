@@ -14,7 +14,6 @@ function App() {
       <div className="app" id='app'>
         <Routes>
           <Route path="/" element={<Trending />} />
-          <Route path="/trending" element={<Trending />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="/series" element={<Series />} />
         </Routes>

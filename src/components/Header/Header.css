@@ -7,7 +7,6 @@ header {
     align-items: center;
     background-color: #495774;
     height: 60px;
-    /* box-shadow: 0 0 15px 5px #485672; */
     z-index: 100;
 }
 
@@ -21,4 +20,5 @@ header .left h1 {
 header a {
     color: white;
     font-family: cursive;
+    font-size: 17px;
 }

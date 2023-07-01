@@ -8,7 +8,7 @@ const Header = () => {
           <h1>Look it</h1>
         </div>
         <div className="right">
-          <Link to={"https://sifedine.lol"}> more projects? </Link>
+          <a href="https://sifedine.lol"> more projects? </a>
         </div>
       </header>
     </>
